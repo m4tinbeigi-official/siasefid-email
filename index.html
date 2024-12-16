@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>رویداد یلدایی</title>
+    <title>سیاسفید 6 - رویداد یلدایی</title>
     <!-- لینک فونت وزیر از CDN -->
     <link href="https://cdn.jsdelivr.net/gh/rastikerdar/vazir-font@v30.1.0/dist/font-face.css" rel="stylesheet" type="text/css" />
     <style>
@@ -65,23 +65,23 @@
 
         /* دکمه ثبت‌نام */
         .cta a {
-            display: block; /* دکمه را بلاک می‌کنیم */
-            width: fit-content; /* اندازه دکمه به اندازه محتوای خود تنظیم می‌شود */
-            margin: 20px auto; /* دکمه را وسط چین می‌کند */
+            display: block;
+            width: fit-content;
+            margin: 20px auto;
             text-decoration: none;
-            background-color: #fff; /* پس‌زمینه سفید */
-            color: #000; /* متن سیاه */
+            background-color: #fff;
+            color: #000;
             padding: 12px 25px;
             border-radius: 8px;
             font-size: 1rem;
             font-weight: bold;
-            border: 2px solid #000; /* کادر مشکی */
+            border: 2px solid #000;
             transition: background 0.3s ease, color 0.3s ease;
         }
 
         .cta a:hover {
-            background-color: #000; /* پس‌زمینه مشکی هنگام هاور */
-            color: #fff; /* تغییر رنگ متن به سفید هنگام هاور */
+            background-color: #000;
+            color: #fff;
         }
 
         /* فوتر */
@@ -94,7 +94,7 @@
             justify-content: space-between;
             align-items: center;
             border-top: 2px solid #ff4d4d;
-            flex-wrap: wrap; /* این گزینه باعث می‌شود که اگر فضا کم باشد، المان‌ها به خط بعدی منتقل شوند */
+            flex-wrap: wrap;
         }
 
         /* لینک اینستاگرام */
@@ -127,6 +127,32 @@
         .footer .discount-code, .footer .instagram-link {
             margin-right: 20px;
         }
+
+        /* سازگاری با موبایل */
+        @media (max-width: 600px) {
+            .container {
+                width: 100%;
+                padding: 10px;
+            }
+
+            .content h1 {
+                font-size: 1.5rem;
+            }
+
+            .cta a {
+                font-size: 0.9rem;
+                padding: 10px 20px;
+            }
+
+            .footer {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            .footer a {
+                margin-bottom: 10px;
+            }
+        }
     </style>
 </head>
 <body>
@@ -158,8 +184,8 @@
                 <i class="fa fa-instagram instagram-icon"></i>
             </a>
                 کد تخفیف ویژه یلدا: <strong>siasfid</strong>
-                با همکاری: <a  href="https://www.instagram.com/tesmino/" target="_blank" >tesmino@</a>
-				</div>
+                با همکاری: <a href="https://www.instagram.com/tesmino/" target="_blank" >tesmino@</a>
+        </div>
     </div>
 
     <!-- لینک آیکون Font Awesome برای آیکون اینستاگرام -->
